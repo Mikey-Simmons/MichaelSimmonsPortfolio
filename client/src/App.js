@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <div className="jumbotron">
         <h1 className="display-4">Michael Simmons</h1>
-
+        <p class="lead">Full-Stack Web Developer</p>
         <ul class="nav justify-content-center">
           <li class="nav-item">
             <a class="nav-link active" href="/">Home</a>
@@ -25,9 +25,11 @@ function App() {
           </li>
         </ul>
       </div>
+
 <Router>
 <HomePage path="/"></HomePage>
 </Router>
+
     </div>
   );
 }

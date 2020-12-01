@@ -15,5 +15,18 @@ code {
 .jumbotron{
   color: rgb(36, 255, 36);
   background-color: black !important;
-  font-family: Lucida, sans-serif;
+  font-family: Segoe Script
+}
+
+.nav-link{
+  color: rgb(36, 255, 36) !important;
+}
+#sticky-footer{
+  background-color: black !important;
+}
+a{
+  color: rgb(36, 255, 36) !important;
+}
+Carousel{
+  height: 500px !important;
 }
