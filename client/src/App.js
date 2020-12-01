@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
+import HomePage from './views/HomePage';
+import { Router } from '@reach/router';
 
 function App() {
   return (
@@ -23,7 +25,9 @@ function App() {
           </li>
         </ul>
       </div>
-
+<Router>
+<HomePage path="/"></HomePage>
+</Router>
     </div>
   );
 }
