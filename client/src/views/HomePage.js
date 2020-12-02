@@ -13,6 +13,7 @@ import mikey3 from './imgs/mikey32.jpg'
 import mikey4 from './imgs/mikey4.jpg'
 import mikey5 from './imgs/mikey52.jpg'
 import '../index.css'
+
 const items = [
     {
         src: mikey4,
@@ -78,6 +79,7 @@ const HomePage = props => {
                 <CarouselControl direction="prev" directionText="Previous" onClickHandler={previous} />
                 <CarouselControl direction="next" directionText="Next" onClickHandler={next} />
             </Carousel>
+    
         </Container>
 
 
