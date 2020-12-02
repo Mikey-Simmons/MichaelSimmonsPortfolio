@@ -5,7 +5,8 @@ import {
     CarouselControl,
     CarouselIndicators,
     CarouselCaption,
-    Container
+    Container,
+    Jumbotron
 } from 'reactstrap';
 import mikey from './imgs/mikey.jpg'
 import mikey2 from './imgs/mikey2.jpg'
