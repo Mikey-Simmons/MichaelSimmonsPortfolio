@@ -33,6 +33,7 @@ Carousel{
 .listy{
   background-color: #282828!important;
   color: #F4B400!important;
+  border: none !important;
 }
 .green_button{
   color: rgb(36, 255, 36) !important;
