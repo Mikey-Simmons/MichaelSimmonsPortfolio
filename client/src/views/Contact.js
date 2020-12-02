@@ -12,9 +12,9 @@ const Contact = (props) => {
 </svg> Contact Me!</h1>
         </AnimationWrapper>
         <ListGroup flush>
-      Phone Number:<AnimationWrapper>
+      <AnimationWrapper>
        <ListGroupItem className="listy"  tag="a" href="tel:+12064681060">(206)-468-1060</ListGroupItem></AnimationWrapper>
-     Email: 
+     
      <AnimationWrapper><ListGroupItem className="listy" tag="a" href="mailto: mikeysimmons425@gmail.com">mikeysimmons425@gmail.com</ListGroupItem></AnimationWrapper>
      <AnimationWrapper><ListGroupItem className="listy" tag="a" href="https://www.linkedin.com/in/michael-simmons-23491a160/">LinkedIn</ListGroupItem></AnimationWrapper>
      <AnimationWrapper>  <ListGroupItem className="listy" tag="a" href="https://github.com/Mikey-Simmons">Github</ListGroupItem></AnimationWrapper>
