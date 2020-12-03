@@ -16,7 +16,7 @@ const Projects = (props) => {
 </AnimationWrapper>
 <ListGroup>
 <AnimationWrapper><ListGroupItem className="listy" tag="a" href="/appconnect">Apartment Connect</ListGroupItem></AnimationWrapper>
-<AnimationWrapper><ListGroupItem className="listy" tag="a" href="#">4Sale</ListGroupItem></AnimationWrapper>
+<AnimationWrapper><ListGroupItem className="listy" tag="a" href="/4sale">4Sale</ListGroupItem></AnimationWrapper>
 <AnimationWrapper><ListGroupItem className="listy" tag="a" href="#">FlatScreenGuru</ListGroupItem></AnimationWrapper>
 <AnimationWrapper><ListGroupItem className="listy" tag="a" href="#">Alien Invasion</ListGroupItem></AnimationWrapper>
     </ListGroup>
