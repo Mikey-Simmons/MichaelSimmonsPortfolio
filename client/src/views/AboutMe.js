@@ -18,7 +18,7 @@ const AboutMe = (props) => {
 </svg> About Me!</h1>
 </AnimationWrapper>
 <AnimationWrapper>
-<p>Hello there, my name is Michael Simmons!  I am a recent graduate from the school Coding Dojo where I studied Web Development.  
+<p className="aboutme">Hello there, my name is Michael Simmons!  I am a recent graduate from the school Coding Dojo where I studied Web Development.  
     I have a passion for learning new technologies and implementing them in real world scenarios.  
     Before I attended Coding Dojo I worked a variety of different sales jobs across the Seattle area.  
     Buying and selling hype sneakers is a big passion of mine, I’ve been collecting since I was in middle school.  

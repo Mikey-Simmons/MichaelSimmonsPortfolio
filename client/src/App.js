@@ -9,6 +9,8 @@ import AboutMe from './views/AboutMe';
 import Projects from './views/Projects';
 import AppConnect from './views/AppConnect';
 import ForSale from './views/ForSale';
+import Flatscreenguru from './views/Flatscreenguru';
+import AlienInvasion from './views/AlienInvasion';
 
 
 function App() {
@@ -75,7 +77,8 @@ function App() {
 <Projects path="/projects"></Projects>
 <AppConnect path ="/appconnect"></AppConnect>
 <ForSale path="/4sale"></ForSale>
-
+<Flatscreenguru path="/flatscreenguru"></Flatscreenguru>
+<AlienInvasion path="/alieninvasion"></AlienInvasion>
 </Router>
 
     </div>
