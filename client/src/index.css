@@ -51,3 +51,14 @@ svg{
 .nav a{
   color: #de5246 !important;
 }
+.card{
+  background-color:#282828!important ;
+  font-family: Segoe Script !important;
+}
+.text1{
+  color: #F4B400 !important;
+}
+
+.linkcard{
+  color: #de5246 !important;
+}

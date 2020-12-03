@@ -7,6 +7,7 @@ import { Router } from '@reach/router';
 import { AnimationWrapper } from 'react-hover-animation';
 import AboutMe from './views/AboutMe';
 import Projects from './views/Projects';
+import AppConnect from './views/AppConnect'
 
 function App() {
   
@@ -70,6 +71,8 @@ function App() {
 <Contact path="/contact"></Contact>
 <AboutMe path="/aboutme"></AboutMe>
 <Projects path="/projects"></Projects>
+<AppConnect path ="/appconnect"></AppConnect>
+
 </Router>
 
     </div>
