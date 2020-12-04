@@ -1,12 +1,72 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {
   Card, CardText, CardBody, Container,Jumbotron, CardLink,
   CardTitle, CardSubtitle
 } from 'reactstrap';
-import app3 from './imgs/flatscreen.PNG';
+import flatscreen1 from './imgs/flatscreen.PNG';
+import flatscreen2 from './imgs/flatscreen2.PNG';
+import flatscreen3 from './imgs/flatscreen3.PNG';
+import flatscreen4 from './imgs/flatscreen4.PNG';
 import { AnimationWrapper } from 'react-hover-animation';
+import {
+    Carousel,
+    CarouselItem,
+    CarouselControl,
+    CarouselIndicators,
+    CarouselCaption,
+} from 'reactstrap';
+const items = [
+    {
+        src: flatscreen1,
 
+    },
+    {
+        src: flatscreen2,
+
+    },
+    {
+        src: flatscreen3,
+
+    },
+    {
+        src: flatscreen4,
+
+    },
+    
+];
 const Flatscreenguru = (props) => {
+    const [activeIndex, setActiveIndex] = useState(0);
+    const [animating, setAnimating] = useState(false);
+
+    const next = () => {
+        if (animating) return;
+        const nextIndex = activeIndex === items.length - 1 ? 0 : activeIndex + 1;
+        setActiveIndex(nextIndex);
+    }
+
+    const previous = () => {
+        if (animating) return;
+        const nextIndex = activeIndex === 0 ? items.length - 1 : activeIndex - 1;
+        setActiveIndex(nextIndex);
+    }
+
+    const goToIndex = (newIndex) => {
+        if (animating) return;
+        setActiveIndex(newIndex);
+    }
+
+    const slides = items.map((item) => {
+        return (
+            <CarouselItem
+                onExiting={() => setAnimating(true)}
+                onExited={() => setAnimating(false)}
+                key={item.src}
+            >
+                <img src={item.src} alt={item.altText} />
+                <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
+            </CarouselItem>
+        );
+    });
   return (
     <Container>
         <Jumbotron>
@@ -16,8 +76,17 @@ const Flatscreenguru = (props) => {
 </svg> Flatscreenguru </h1>
 </AnimationWrapper>
       <Card>
+      <Carousel
+                activeIndex={activeIndex}
+                next={next}
+                previous={previous}
+            >
+                <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={goToIndex} />
+                {slides}
+                <CarouselControl direction="prev" directionText="Previous" onClickHandler={previous} />
+                <CarouselControl direction="next" directionText="Next" onClickHandler={next} />
+            </Carousel>
         
-        <img width="100%" src={app3} alt="Card image cap" />
         <CardBody>
             <AnimationWrapper>
           <CardText className="text1">Flatscreenguru is a full-stack web application developed with Django.
