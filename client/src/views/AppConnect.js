@@ -1,12 +1,68 @@
-import React from 'react';
+import React, { useState } from 'react'
 import {
   Card, CardText, CardBody, Container,Jumbotron, CardLink,
   CardTitle, CardSubtitle
 } from 'reactstrap';
 import app1 from './imgs/appconnect.PNG';
+import app2 from './imgs/appconnect2.PNG';
+import app3 from './imgs/appconnect3.PNG';
 import { AnimationWrapper } from 'react-hover-animation';
+import {
+    Carousel,
+    CarouselItem,
+    CarouselControl,
+    CarouselIndicators,
+    CarouselCaption,
+} from 'reactstrap';
 
+const items = [
+    {
+        src: app1,
+
+    },
+    {
+        src: app2,
+
+    },
+    {
+        src: app3,
+
+    },
+    
+];
 const AppConnect = (props) => {
+    const [activeIndex, setActiveIndex] = useState(0);
+    const [animating, setAnimating] = useState(false);
+
+    const next = () => {
+        if (animating) return;
+        const nextIndex = activeIndex === items.length - 1 ? 0 : activeIndex + 1;
+        setActiveIndex(nextIndex);
+    }
+
+    const previous = () => {
+        if (animating) return;
+        const nextIndex = activeIndex === 0 ? items.length - 1 : activeIndex - 1;
+        setActiveIndex(nextIndex);
+    }
+
+    const goToIndex = (newIndex) => {
+        if (animating) return;
+        setActiveIndex(newIndex);
+    }
+
+    const slides = items.map((item) => {
+        return (
+            <CarouselItem
+                onExiting={() => setAnimating(true)}
+                onExited={() => setAnimating(false)}
+                key={item.src}
+            >
+                <img src={item.src} alt={item.altText} />
+                <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
+            </CarouselItem>
+        );
+    });
   return (
     <Container>
         <Jumbotron>
@@ -18,7 +74,17 @@ const AppConnect = (props) => {
 </AnimationWrapper>
       <Card>
         
-        <img width="100%" src={app1} alt="Card image cap" />
+      <Carousel
+                activeIndex={activeIndex}
+                next={next}
+                previous={previous}
+            >
+                <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={goToIndex} />
+                {slides}
+                <CarouselControl direction="prev" directionText="Previous" onClickHandler={previous} />
+                <CarouselControl direction="next" directionText="Next" onClickHandler={next} />
+            </Carousel>
+    
         <CardBody>
             <AnimationWrapper>
           <CardText className="text1">Apartment Connect is a full stack web application developed with MongoDB, Express, ReactJs, and NodeJs.
