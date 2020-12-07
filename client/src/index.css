@@ -15,11 +15,12 @@ code {
 .jumbotron{
   color:#0F9D58;
   background-color: #282828 !important;
-  font-family: Segoe Script
+  font-family:Javanese Text
 }
 
-.nav-link{
-  color: rgb(36, 255, 36) !important;
+
+.nav{
+  font-weight: 500 !important;
 }
 #sticky-footer{
   background-color: #282828 !important;
@@ -50,6 +51,7 @@ svg{
 }
 .nav a{
   color: #de5246 !important;
+  font-weight: 1000 !important;
 }
 .card{
   background-color:#282828!important ;
@@ -64,4 +66,10 @@ svg{
 }
 .aboutme{
   color: #F4B400 !important; 
+}
+.display-4{
+  font-weight: 1000 !important;
+}
+.lead{
+  font-weight: 1000 !important;
 }
