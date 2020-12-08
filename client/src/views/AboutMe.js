@@ -18,11 +18,7 @@ const AboutMe = (props) => {
 </svg> About Me!</h1>
 </AnimationWrapper>
 <AnimationWrapper>
-<p className="aboutme">Hello there, my name is Michael Simmons!  I am a recent graduate from the school Coding Dojo where I studied Web Development.  
-    I have a passion for learning new technologies and implementing them in real world scenarios.  
-    Before I attended Coding Dojo I worked a variety of different sales jobs across the Seattle area.  
-    Buying and selling hype sneakers is a big passion of mine, I’ve been collecting since I was in middle school.  
-    Currently I live in Redmond Washington and I am looking for work!  
+<p className="aboutme">I am a passionate African American web developer who loves learning new technologies and implementing them into real world solutions. My curiosity has driven me to become a lifelong learner. I started and finished an extremely difficult 14 week coding boot camp called Coding Dojo in the middle of the Covid-19 pandemic. Although it was challenging, I proved to myself that I can strive under extremely difficult circumstances and I gained an insane amount of technical knowledge. Having previously worked in sales, I love to work with people and prefer working in a team like environment. I'm an avid shoe collector and buying/selling shoes is another big passion of mine. 
 </p>
 </AnimationWrapper>
         </Jumbotron>
