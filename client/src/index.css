@@ -9,13 +9,13 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: Javanese Text !important;
 }
 .jumbotron{
   color:#0F9D58;
   background-color: #282828 !important;
-  font-family:Javanese Text
+  font-family:Javanese Text;
+  font-size: xxxxx-large !important;
 }
 
 
@@ -48,14 +48,16 @@ svg{
 }
 .lead{
   color: #F4B400;
+  font-size: 25px !important;
 }
 .nav a{
   color: #de5246 !important;
   font-weight: 1000 !important;
+  font-size: x-large !important;
 }
 .card{
   background-color:#282828!important ;
-  font-family: Segoe Script !important;
+  font-family:Javanese Text;
 }
 .text1{
   color: #F4B400 !important;
@@ -69,6 +71,7 @@ svg{
 }
 .display-4{
   font-weight: 1000 !important;
+  font-size: 50px !important;
 }
 .lead{
   font-weight: 1000 !important;

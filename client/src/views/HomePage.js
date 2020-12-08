@@ -17,11 +17,11 @@ import '../index.css'
 
 const items = [
     {
-        src: mikey4,
+        src: mikey2,
 
     },
     {
-        src: mikey2,
+        src: mikey5,
 
     },
     {
@@ -32,7 +32,7 @@ const items = [
         src: mikey
     },
     {
-        src: mikey5
+        src: mikey4
     }
 ];
 const HomePage = props => {
