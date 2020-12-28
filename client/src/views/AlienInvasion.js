@@ -32,6 +32,10 @@ const AlienInvasion = (props) => {
           <AnimationWrapper>
           <CardLink className="linkcard" href="/projects">Go Back!</CardLink>
           </AnimationWrapper>
+          <AnimationWrapper>
+          <CardLink className="linkcard" href="/puppyland">Next Project</CardLink>
+          </AnimationWrapper>
+          
           
         </CardBody>
       </Card>

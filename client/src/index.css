@@ -9,18 +9,19 @@ body {
 }
 
 code {
-  font-family: Javanese Text !important;
+  font-family: 'Righteous', cursive!important;
 }
 .jumbotron{
   color:#0F9D58;
   background-color: #282828 !important;
-  font-family:Javanese Text;
+  font-family: 'Righteous', cursive ;
   font-size: xxxxx-large !important;
 }
 
 
 .nav{
   font-weight: 500 !important;
+  font-size: xxx-large !important;
 }
 #sticky-footer{
   background-color: #282828 !important;
@@ -48,16 +49,16 @@ svg{
 }
 .lead{
   color: #F4B400;
-  font-size: 25px !important;
+  font-size: 50px !important;
 }
 .nav a{
   color: #de5246 !important;
   font-weight: 1000 !important;
-  font-size: x-large !important;
+  font-size: xxx-large !important;
 }
 .card{
   background-color:#282828!important ;
-  font-family:Javanese Text;
+  font-family: 'Righteous', cursive
 }
 .text1{
   color: #F4B400 !important;
@@ -68,11 +69,19 @@ svg{
 }
 .aboutme{
   color: #F4B400 !important; 
+  font-size: xx-large !important;
 }
 .display-4{
   font-weight: 1000 !important;
-  font-size: 50px !important;
+  font-size: 100px !important;
 }
 .lead{
   font-weight: 1000 !important;
+  font-size: 60px !important;
+}
+ul.list-group{
+  font-size: xx-large !important;
+}
+.text1{
+  font-size: xx-large;
 }

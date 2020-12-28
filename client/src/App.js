@@ -11,6 +11,7 @@ import AppConnect from './views/AppConnect';
 import ForSale from './views/ForSale';
 import Flatscreenguru from './views/Flatscreenguru';
 import AlienInvasion from './views/AlienInvasion';
+import PuppyLand from './views/PuppyLand';
 
 
 function App() {
@@ -22,13 +23,15 @@ function App() {
   }
 }
   return (
+    
+    
     <div className="App">
       
       <div className="jumbotron">
         <AnimationWrapper>
         <h1 onClick={ onClickHandler } className="display-4">Michael Simmons</h1>
 <AnimationWrapper>
-        <p className="dev" class="lead">Full-Stack Web Developer </p>
+        <p className="dev" class="lead">Full Stack Web Developer </p>
         </AnimationWrapper>
         </AnimationWrapper>
         <ul class="nav justify-content-center">
@@ -74,6 +77,7 @@ function App() {
 <ForSale path="/4sale"></ForSale>
 <Flatscreenguru path="/flatscreenguru"></Flatscreenguru>
 <AlienInvasion path="/alieninvasion"></AlienInvasion>
+<PuppyLand path="/puppyland"></PuppyLand>
 </Router>
 
     </div>
