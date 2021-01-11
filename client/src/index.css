@@ -12,7 +12,7 @@ code {
   font-family: 'Righteous', cursive!important;
 }
 .jumbotron{
-  color:#0F9D58;
+  color:#de5246!important ;
   background-color: #282828 !important;
   font-family: 'Righteous', cursive ;
   font-size: xxxxx-large !important;
@@ -45,14 +45,14 @@ Carousel{
   color: #F4B400 !important;
 }
 svg{
-  color:#F4B400!important ;
+  color:#de5246!important ;
 }
 .lead{
-  color: #F4B400;
+  color:  #d2d2d2 !important;
   font-size: 50px !important;
 }
 .nav a{
-  color: #de5246 !important;
+  color: #d2d2d2 !important;
   font-weight: 1000 !important;
   font-size: xxx-large !important;
 }
@@ -61,14 +61,14 @@ svg{
   font-family: 'Righteous', cursive
 }
 .text1{
-  color: #F4B400 !important;
+  color:  #d2d2d2 !important;
 }
 
 .linkcard{
   color: #de5246 !important;
 }
 .aboutme{
-  color: #F4B400 !important; 
+  color: #d2d2d2 !important; 
   font-size: xx-large !important;
 }
 .display-4{
@@ -81,7 +81,15 @@ svg{
 }
 ul.list-group{
   font-size: xx-large !important;
+  background-color:#282828!important ;
 }
 .text1{
   font-size: xx-large;
+}
+.list-group-item{
+  background-color:#282828!important;
+  color: white !important;
+}
+.techs{
+  background-color:#282828!important
 }

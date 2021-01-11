@@ -28,12 +28,12 @@ function App() {
     <div className="App">
       
       <div className="jumbotron">
-        <AnimationWrapper>
+        
         <h1 onClick={ onClickHandler } className="display-4">Michael Simmons</h1>
-<AnimationWrapper>
+
         <p className="dev" class="lead">Full Stack Web Developer </p>
-        </AnimationWrapper>
-        </AnimationWrapper>
+        
+        
         <ul class="nav justify-content-center">
           <li class="nav-item">
           <AnimationWrapper>
