@@ -80,7 +80,9 @@ const HomePage = props => {
                 <CarouselControl direction="prev" directionText="Previous" onClickHandler={previous} />
                 <CarouselControl direction="next" directionText="Next" onClickHandler={next} />
             </Carousel>
-    
+            <Jumbotron>
+            <p className="dev" class="lead2">Welcome to my personal portfolio website! </p>
+            </Jumbotron>
         </Container>
 
 

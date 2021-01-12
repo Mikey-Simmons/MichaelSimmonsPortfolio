@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #282828 !important;
+  background-color: #F1F3F4 !important;
 }
 
 code {
@@ -13,7 +13,7 @@ code {
 }
 .jumbotron{
   color:#de5246!important ;
-  background-color: #282828 !important;
+  background-color: #F1F3F4 !important;
   font-family: 'Righteous', cursive ;
   font-size: xxxxx-large !important;
 }
@@ -27,7 +27,7 @@ code {
   background-color: #282828 !important;
 }
 a{
-  color: rgb(36, 255, 36) !important;
+  color: #4285F4!important;
 }
 Carousel{
   height: 500px !important;
@@ -48,27 +48,27 @@ svg{
   color:#de5246!important ;
 }
 .lead{
-  color:  #d2d2d2 !important;
+  color:  #2d2d2d !important;
   font-size: 50px !important;
 }
 .nav a{
-  color: #d2d2d2 !important;
+  color: #F4B400 !important;
   font-weight: 1000 !important;
   font-size: xxx-large !important;
 }
 .card{
-  background-color:#282828!important ;
+  background-color:#F1F3F4!important ;
   font-family: 'Righteous', cursive
 }
 .text1{
-  color:  #d2d2d2 !important;
+  color:  #282828 !important;
 }
 
 .linkcard{
   color: #de5246 !important;
 }
 .aboutme{
-  color: #d2d2d2 !important; 
+  color: #2d2d2d !important; 
   font-size: xx-large !important;
 }
 .display-4{
@@ -78,6 +78,7 @@ svg{
 .lead{
   font-weight: 1000 !important;
   font-size: 60px !important;
+  color: #0F9D58 !important;
 }
 ul.list-group{
   font-size: xx-large !important;
@@ -87,9 +88,15 @@ ul.list-group{
   font-size: xx-large;
 }
 .list-group-item{
-  background-color:#282828!important;
-  color: white !important;
+  background-color:#F1F3F4!important;
+  color: #4285F4 !important;
 }
-.techs{
-  background-color:#282828!important
+
+.display-3{
+  background-color: #F1F3F4;
+}
+.lead2{
+  font-weight: 1000 !important;
+  font-size: 60px !important;
+  color: #202124 !important;
 }

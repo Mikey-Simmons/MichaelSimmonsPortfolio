@@ -30,27 +30,31 @@ const AboutMe = (props) => {
 
     </h1>
     <ul class="list-group">
-    <AnimationWrapper>
-  <li class="list-group-item">HTML, CSS, Javascript</li>
-  </AnimationWrapper>
-  <AnimationWrapper>
-  <li class="list-group-item">Java, Django, Flask</li>
-  </AnimationWrapper>
-  <AnimationWrapper>
-  <li class="list-group-item">ReactJS, MongoDB, Express</li>
-  </AnimationWrapper>
-  <AnimationWrapper>
-  <li class="list-group-item">Spring Boot, bcrypt, REST</li>
-  </AnimationWrapper>
-  <AnimationWrapper>
-  <li class="list-group-item">Bootstrap, Reactstrap, Socket.io</li>
-  </AnimationWrapper>
-  <AnimationWrapper>
-  <li class="list-group-item">Selenium, SQLite, MySQL</li>
-  </AnimationWrapper>
-  <AnimationWrapper>
-  <li class="list-group-item">pygame, NodeJS, jQuery</li>
-  </AnimationWrapper>
+    
+  <li class="list-group-item">
+    <a href="https://www.w3schools.com/html/html_intro.asp">HTML </a>
+    <a href="https://www.w3schools.com/css/css_intro.asp"> CSS </a>
+    <a href="https://www.javascript.com/"> Javascript </a></li>
+  
+  
+  <li class="list-group-item">
+    <a href="https://go.java/?intcmp=gojava-banner-java-com"> Java </a><a href="https://reactjs.org/">Django</a><a href="https://reactjs.org/"> Flask </a> </li>
+  
+  
+  <li class="list-group-item"><a href="https://reactjs.org/"> ReactJS </a><a href="https://www.mongodb.com/"> MongoDB </a><a href="https://expressjs.com/"> Express </a></li>
+  
+  
+  <li class="list-group-item"><a href="https://spring.io/projects/spring-boot">Spring Boot</a><a href="https://www.npmjs.com/package/bcrypt"> bcrypt </a><a href="https://www.django-rest-framework.org/"> REST </a></li>
+  
+  
+  <li class="list-group-item"><a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/"> Bootstrap </a><a href="https://reactstrap.github.io/"> Reactstrap </a><a href="https://socket.io/"> Socket.io </a></li>
+  
+  
+  <li class="list-group-item"><a href="https://www.selenium.dev/"> Selenium </a><a href="https://www.sqlite.org/index.html"> SQLite</a><a href="https://www.mysql.com/">  MySQL </a></li>
+  
+  
+  <li class="list-group-item"><a href="https://www.pygame.org/news"> pygame </a><a href="https://nodejs.org/en/"> NodeJS </a> <a href="https://jquery.com/"> jQuery </a></li>
+  
   
 </ul>
 </div>

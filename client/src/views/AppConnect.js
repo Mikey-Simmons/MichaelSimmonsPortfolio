@@ -86,12 +86,12 @@ const AppConnect = (props) => {
             </Carousel>
     
         <CardBody>
-            <AnimationWrapper>
+            
           <CardText className="text1">Apartment Connect is a full stack web application developed with MongoDB, Express, ReactJs, and NodeJs.
               Users can submit repair requests for their apartment as well as scheduele times for the gym.  Maintenance workers can see all repairs that need to be done.
               This was a group project developed by Blake Bonasera, Harold Danks, Nathaniel Burge, and I. The application was deployed via AWS and EC2.
           </CardText>
-          </AnimationWrapper>
+          
           <AnimationWrapper>
           <CardLink className="linkcard" href="/projects">Go Back!</CardLink>
           </AnimationWrapper>
