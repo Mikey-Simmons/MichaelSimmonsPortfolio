@@ -70,6 +70,9 @@ const HomePage = props => {
     });
     return (
         <Container>
+            
+            <h1 className="display-3">Full Stack Web Developer</h1>
+            
             <Carousel
                 activeIndex={activeIndex}
                 next={next}
@@ -80,9 +83,8 @@ const HomePage = props => {
                 <CarouselControl direction="prev" directionText="Previous" onClickHandler={previous} />
                 <CarouselControl direction="next" directionText="Next" onClickHandler={next} />
             </Carousel>
-            <Jumbotron>
-            <p className="dev" class="lead2">Welcome to my personal portfolio website! </p>
-            </Jumbotron>
+            
+            
         </Container>
 
 
